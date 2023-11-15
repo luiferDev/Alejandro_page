@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { SimpleGrid } from '@chakra-ui/react'
 import { Stack, HStack, VStack, Box, Heading, Text, Image } from '@chakra-ui/react'
 
@@ -11,11 +12,11 @@ export function Section ({ title, subtitleOne, bodyOne, subtitleTwo, bodyTwo, su
             <Box>
             <VStack alignItems='left'>
                 <Image 
-                boxSize='250px'
+                boxSize='150px'
                 objectFit='fill'
                 src = {imagenOne}
                 alt='El gusty joven' />
-                <Heading as='h3' mb='1em'>
+                <Heading as='h3' mb='0.3em'>
                     {subtitleOne}
                 </Heading>
                 <Text>
@@ -26,11 +27,11 @@ export function Section ({ title, subtitleOne, bodyOne, subtitleTwo, bodyTwo, su
         <Box>
             <VStack alignItems='left'>
             <Image 
-                boxSize='250px'
+                boxSize='150px'
                 objectFit='fill'
                 src = {imagenTwo}
                 alt='El gusty joven' />
-                <Heading as='h3' mb='1em'>
+                <Heading as='h3' mb='0.3em'>
                     {subtitleTwo}
                 </Heading>
                 <Text>
@@ -41,11 +42,11 @@ export function Section ({ title, subtitleOne, bodyOne, subtitleTwo, bodyTwo, su
         <Box>
             <VStack alignItems='left'>
             <Image 
-                boxSize='250px'
+                boxSize='150px'
                 objectFit='fill'
                 src = {ImagenThree}
                 alt='El gusty joven' />
-                <Heading as='h3' mb='1em'>
+                <Heading as='h3' mb='0.3em'>
                     {subtitleThree}
                 </Heading>
                 <Text>

@@ -10,9 +10,9 @@ import { mode } from '@chakra-ui/theme-tools'
 const styles = {
   global: (props) => ({
     body: {
-      fontFamily: 'Lato',
-      color: mode('white')(props),
-      bgGradient: mode('radial(circle, #0D0935 0%, 14.580941200256348%, #49075F 29.161882400512695%, 53.38691174983978%, #4A0844 77.61194109916687%, 88.80597054958344%, #222161 100%)')(props),
+      fontFamily: 'Lato Light',
+      color: mode('#E5E5E5')(props),
+      bgGradient: mode('radial(circle, #49075F, #4A0844, #222161)')(props),
       lineHeight: 'base',
     },
  }),
